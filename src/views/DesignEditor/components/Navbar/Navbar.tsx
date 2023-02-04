@@ -263,7 +263,8 @@ const Navbar = () => {
     <ThemeProvider theme={DarkTheme}>
       <Container>
         <div style={{ color: "#ffffff" }}>
-          <Logo size={36} />
+          {/* <Logo size={36} /> некит */}
+          Никита111
         </div>
         <DesignTitle />
         <Block $style={{ display: "flex", alignItems: "center", justifyContent: "flex-end" }}>
