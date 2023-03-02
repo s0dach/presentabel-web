@@ -24,7 +24,6 @@ const PanelsList = () => {
       <Scrollable autoHide={true}>
         {PANEL_ITEMS.map((panelListItem) => (
           <PanelListItem
-            // label={t(`panels.panelsList.${panelListItem.id}`)}
             label={panelListItem.label}
             name={panelListItem.name}
             key={panelListItem.name}

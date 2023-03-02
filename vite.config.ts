@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://api.layerhub.pro",
+        target: "http://localhost:5173",
         changeOrigin: true,
         secure: false,
         ws: true,

@@ -18,8 +18,6 @@ const DesignEditor = () => {
         {
           NONE: <SelectEditor />,
           PRESENTATION: <PresentationEditor />,
-          // VIDEO: <VideoEditor />,
-          // GRAPHIC: <GraphicEditor />,
         }[editorType]
       }
     </>

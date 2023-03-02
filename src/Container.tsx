@@ -68,19 +68,7 @@ const Container = ({ children }: { children: React.ReactNode }) => {
       .catch((err) => console.log({ err }))
   }
 
-  return (
-    <div
-      ref={containerRef}
-      style={{
-        flex: 1,
-        display: "flex",
-        height: "100vh",
-        width: "100vw",
-      }}
-    >
-      {children}
-    </div>
-  )
+  return <div ref={containerRef}>{children}</div>
 }
 
 export default Container
